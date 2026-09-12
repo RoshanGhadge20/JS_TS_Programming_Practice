@@ -1,0 +1,11 @@
+const arr11: number[] = [1, 2, 3, 4, 5];
+
+let counter: number = arr11.length;
+let sum: number = 0;
+for (const elem of arr11) {
+    sum = sum + elem;
+}
+console.log(`Average of elemnts into the array is ${sum / counter}`);
+
+const avgValue = (arr11.reduce((sum, value) => sum + value, 0)) / counter;
+console.log(avgValue);

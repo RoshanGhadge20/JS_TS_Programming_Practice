@@ -6,7 +6,6 @@ for (let i = 0; i < sam3.length; i++) {
             countOfEachCharactersamp3++;
         }
     }
-    // console.log(`Character ${sam3.charAt(i)} is repeated :- ${countOfEachCharactersamp3}`);
     if (countOfEachCharactersamp3 === 1) {
         console.log(`First non-repeating character from string is:- ${sam3.charAt(i)}`);
         break;

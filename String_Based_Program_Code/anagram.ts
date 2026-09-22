@@ -1,5 +1,5 @@
-const Str1: string = "Roshan";
-const Str2: string = "nahsor";
+const Str1: string = "Roshan Ghadge";
+const Str2: string = "nahsor egdahg";
 
 if (Str1.length === Str2.length) {
     const sortedstr1: string = Str1.split("").sort().join("");

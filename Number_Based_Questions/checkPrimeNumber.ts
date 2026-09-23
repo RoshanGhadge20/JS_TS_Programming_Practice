@@ -11,4 +11,3 @@ function checkPrime(num: number): boolean | undefined {
     }
 }
 console.log(checkPrime(11));
-// console.log(checkPrime(4));

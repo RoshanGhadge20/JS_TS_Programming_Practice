@@ -7,7 +7,7 @@ abstract class shape {
 
 class circle extends shape {
     constructor() {
-        super(); // first initialize to the parent class constructor
+        super();
     }
     area(): number {
         return Math.PI ** 2;

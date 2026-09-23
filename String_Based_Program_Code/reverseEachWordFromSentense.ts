@@ -1,7 +1,6 @@
 const userInput5: string = "Hello, Roshan Ghadge Here";
 
 const splittedUserInput = userInput5.split(" ");
-// console.log(splittedUserInput);
 let reverseWord: string = ""
 let reverseSentense: string = "";
 for (const indWords of splittedUserInput) {

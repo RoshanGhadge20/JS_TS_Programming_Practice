@@ -5,12 +5,13 @@ let commonElement = new Set<Number>();
 
 for (const ele of arr1) {
     if (uniqueElement.has(ele)) {
-        console.log('Unique element ', ele)
+        // console.log('Unique element ', ele)
         commonElement.add(ele);
     }
     else {
         uniqueElement.add(ele)
     }
 }
-console.log('All Common elements:-', Array.from(commonElement))
+console.log('Unique Elements:- ', uniqueElement);
+console.log('All Common elements:-', Array.from(commonElement));
 

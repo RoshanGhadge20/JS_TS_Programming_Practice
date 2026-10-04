@@ -4,6 +4,7 @@ const arr4: number[] = [12, 3, 4, 5];
 let target: number = 9;
 const elementWithMatchingPair = new Set<Number>();
 
+// With for loop conditions
 for (let i = 0; i < arr4.length; i++) {
     for (let j = 1; j < arr4.length; j++) {
         if (arr4[i] + arr4[j] === target) {

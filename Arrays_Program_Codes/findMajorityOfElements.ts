@@ -16,4 +16,4 @@ for (let i = 0; i < arr14.length; i++) {
     }
     count = 0
 }
-console.log(`Majority Of Array is :- ${newMajorityArr}`);
+console.log(`Majority Of Elements into Array are :- ${newMajorityArr}`);

@@ -10,4 +10,4 @@ for (let a = 0; a < arr5.length; a++) {
         }
     }
 }
-console.log('Intersectioned Elements', Array.from(intersectionOfElements));
+console.log('Intersectioned Common Elements', Array.from(intersectionOfElements));

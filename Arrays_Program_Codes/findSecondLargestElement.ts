@@ -15,7 +15,7 @@ for (const element of arr) {
     }
 }
 console.log(`largest Number ${largestNumber}`);
-console.log(`SEcond largest Number ${secondLargestNumber}`);
+console.log(`Second largest Number ${secondLargestNumber}`);
 
 
 

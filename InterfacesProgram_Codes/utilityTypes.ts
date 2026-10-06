@@ -17,7 +17,7 @@ console.log(jituPoints.x);
 console.log(jituPoints.y);
 
 
-// Record > it specifies that key and type included into it 
+// Record > it specifies that key and type included into it
 const roles: Record<string, number> =
 {
     'name': 15,

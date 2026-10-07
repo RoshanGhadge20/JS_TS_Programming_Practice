@@ -9,3 +9,8 @@ function getLCM(num1: number, num2: number): number {
 
 console.log(`Calling the GCD :- ${getGCD(12, 18)}`);
 console.log(`Calling the LCM :- ${getLCM(12, 18)}`);
+
+/* // output
+Calling the GCD: - 6
+Calling the LCM: - 36
+ */

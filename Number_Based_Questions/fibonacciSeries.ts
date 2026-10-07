@@ -5,6 +5,7 @@ let b: number = 1;
 
 let next: number;
 
+// Simple with for loops
 for (let i = 0; i < num4; i++) {
     console.log(a);
     next = a + b;

@@ -1,15 +1,16 @@
 const checkNum: number = 6;
 
 let Num: number = checkNum;
-let sum: number = 0;
+let sum1: number = 0;
+
 for (let i = 1; i < checkNum; i++) {
     if (checkNum % i === 0) {
-        sum = sum + i;
+        sum1 = sum1 + i;
     }
 }
 
-console.log(sum);
-if (checkNum === sum) {
+console.log(sum1);
+if (checkNum === sum1) {
     console.log('Number is perfect number')
 }
 else {

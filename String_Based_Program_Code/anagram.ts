@@ -4,7 +4,7 @@ const Str2: string = "nahsor egdahg";
 if (Str1.length === Str2.length) {
     const sortedstr1: string = Str1.split("").sort().join("");
     const sortedstr2: string = Str2.split("").sort().join("");
-    if (sortedstr1.toLowerCase() === sortedstr2.toLocaleLowerCase()) {
+    if (sortedstr1.toLowerCase() === sortedstr2.toLowerCase()) {
         console.log(`Both the strings are anagram`);
     }
     else {
@@ -12,5 +12,5 @@ if (Str1.length === Str2.length) {
     }
 }
 else {
-    console.log(`Both the strings are not anagram`);
+    console.log(`Both the strings are not equals`);
 }

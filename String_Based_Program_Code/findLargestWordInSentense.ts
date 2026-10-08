@@ -7,4 +7,4 @@ for (const userI of userInputSplitted) {
     }
 }
 
-console.log(largestWord);
+console.log('largest word into string is', largestWord);

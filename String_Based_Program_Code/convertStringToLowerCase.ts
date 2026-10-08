@@ -1,5 +1,6 @@
 const sampleString1: string = "Roshan Ghadge 123";
 
+// Logic to convert into lowwercase without any inbuilt method
 let result1: string = "";
 for (let i = 0; i <= sampleString1.length; i++) {
     let charCodeOfString: number = sampleString1.charCodeAt(i);
@@ -15,6 +16,6 @@ for (let i = 0; i <= sampleString1.length; i++) {
             + sampleString1.charAt(i);
     }
 }
-console.log("UpperCase of String is:- ", result1
+console.log("LowerCase of String is:- ", result1
 
 );
